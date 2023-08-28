@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDF8DF"
+    tools:context=".Signup">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="266dp"
+        android:layout_height="44dp"
+        android:text="@string/txt"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="352dp"
+        android:layout_height="57dp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="TODO"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,TextFields"
+        tools:layout_editor_absoluteX="39dp"
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="352dp"
+        android:layout_height="57dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/hint0"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="209dp"
+        tools:ignore="MissingConstraints,TextFields"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="352dp"
+        android:layout_height="57dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/text0"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="296dp"
+        tools:ignore="MissingConstraints,TextFields"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="352dp"
+        android:layout_height="57dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/txt01"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="377dp"
+        tools:ignore="MissingConstraints,TextFields"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btntxt0"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="464dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btntxt01"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="542dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

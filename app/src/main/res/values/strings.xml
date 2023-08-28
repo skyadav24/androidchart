@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">firstApp</string>
+    <string name="txt1">Welcome</string>
+    <string name="txt2">firstApp</string>
+    <string name="hint1">Enter your Username</string>
+    <string name="hint2">Enter password</string>
+    <string name="btntxt">Log in</string>
+    <string name="btntxt1">Sign Up</string>
+    <string name="btntxt2">Reset password</string>
+    <string name="btntxt3">Forget password</string>
+
+    <string name="txt">Signup</string>
+    <string name="hint">Enter your Full_name</string>
+    <string name="hint0">E-mail</string>
+    <string name="text0">Password</string>
+    <string name="txt01">Re-Password</string>
+    <string name="btntxt0">Signup</string>
+    <string name="btntxt01">Already account</string>
+
+</resources>
